@@ -1,0 +1,16 @@
+{
+  "name": "event-management",
+  "description": "Event Management System",
+  "version": "1.0.0",
+  "author": {
+    "name": "Amdadul Haq"
+  },
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./main.css -o ./assets/css/tailwind.css --watch",
+    "build": "npx @tailwindcss/cli -i ./main.css -o ./assets/css/tailwind.css"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.0",
+    "tailwindcss": "^4.0.0"
+  }
+}
